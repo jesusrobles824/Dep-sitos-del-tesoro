@@ -2,7 +2,7 @@ name: Depósitos_Tesoro
 
 on:
   schedule:
-    - cron: "0 23 * * *"   # Todos los días a las 05:00 de Argentina (08:00 UTC)
+    - cron: "30 22 * * *"   # Todos los días a las 19:30 de Argentina (08:00 UTC)
   workflow_dispatch:
 
 jobs:
